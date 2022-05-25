@@ -1,0 +1,66 @@
+.header .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+.header{
+    background-color: #F88D47;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    justify-content: space-between;
+}
+.menu div h1{
+    color: white;
+}
+.apresentacao{
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.apresentacao .texto_apresentacao{
+    min-height: 200px;
+}
+.texto_apresentacao h1{
+    color: #F88D47;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.apresentacao p{
+    margin-bottom: 30px;
+}
+.apresentacao a{
+    text-decoration: none;
+    color: white;
+    background-color: #F88D47;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+}
+#quem_somos{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -5,39 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>FlexTurismos</title>
 </head>
 <body>
     <header class="header">
-        <h1>FlexTurismos</h1>
-        <ul>
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Planos</a></li>
+      <div class="flex-container menu">
+        <div><h1>FlexTurismos</h1></div>
+        <ul class="nav">
+            <li><a href="#quem_somos">Quem Somos</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#planos">Planos</a></li>
         </ul>
+      </div>
     </header>
- <div class="flex_tur">
-        <div>
-         <h1>Flex Turismos</h1>
+ <div class="apresentacao flex-container">
+        <div class="texto_apresentacao">
+         <h1>Flex <br> Turismos</h1>
          <p>O melhor serviço para você!</p>
-         <a href="#">Saiba mais!</a>
+         <a href="#">Saiba Mais!</a>
          </div>
         <div>
          <img src="imgs/0-main.png" alt="">
         </div>
     </div>
-    <div class="quem_somos">
-        <div>
-         <img src="imgs/1-quem-somos.png" alt="">
-        </div>
+    <div id="quem_somos" class="flex-container">
         <div>
          <h2>Quem somos</h2>
          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
          </p>
         </div>
+        <div>
+            <img src="imgs/1-quem-somos.png" alt="">
+           </div>
     </div>
-    <div>
+    <div id="serviços" class="flex-container">
         <div>
          <h2>Serviços</h2>
         </div>
@@ -50,7 +53,7 @@
              <a href="#">Comprar Agora</a>
          </div>
      </div>
-     <div class="pacotes">
+     <div class="pacotes flex-container">
          <div>
              <img src="imgs/icon-1.png" alt="">
          </div>
@@ -65,7 +68,7 @@
         <a href="#">Comprar Agora</a>
      </div>
     </div>
-    <div class="planos">
+    <div id="planos" class="flex-container">
         <div>
             <h2>Planos</h2>
         </div>
