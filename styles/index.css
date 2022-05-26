@@ -140,6 +140,14 @@ div img{
     margin: auto;
 }
 #planos{
-    height: 80vh;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.list_planos{
     display: flex;
+    align-items: flex-end;  
+}
+.item_plano{
+    flex: 1;
+    border: 2px solid #F88D47;
 }
