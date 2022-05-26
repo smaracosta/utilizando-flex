@@ -13,6 +13,10 @@
     text-decoration: none;
     color: white;
 }
+div img{
+    display: block;
+    width: 100%;
+}
 .flex-container{
     display: flex;
     max-width: 992px;
@@ -49,7 +53,7 @@
 }
 .apresentacao a{
     text-decoration: none;
-    color: white;
+    color: #fff;
     background-color: #F88D47;
     border-radius: 20px;
     display: block;
@@ -59,8 +63,83 @@
     line-height: 50px;
     font-size: 17px;
 }
+.apresentacao a:hover{
+    background-color: #f3863e;
+}
 #quem_somos{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+}
+#quem_somos h2{
+    font-size: 32px;
+    color: #F88D47;
+    display: flex;
+    margin-bottom: 20px;
+}
+#quem_somos h2::before{
+    content: "";
+    height: 40px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #F88D47;
+    position: relative;
+}
+#quem_somos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+#quem_somos img{
+    min-width: 600px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.container_servicos{
+    background-color: #F88D47;
+    width: 100%;
+    display: flex;
+}
+#servicos{
+    flex-direction: column;
+    padding: 50px 0 100px 0;
+}
+.list_servicos{
+    display: flex;
+    justify-content: space-between;
+}
+.list_servicos .item_servicos{
+    text-align: center;
+}
+#servicos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.item_servicos a {
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    color: #F88D47;
+    font-size: 15px;
+    font-weight: 700;
+}
+.item_servicos p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+.item_servicos img{
+    width: 80%;
+    margin: auto;
+}
+#planos{
+    height: 80vh;
+    display: flex;
 }
